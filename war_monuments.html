@@ -1,0 +1,140 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Проект, посвященный изучению памятников Великой Отечественной войны в Санкт-Петербурге">
+    <meta name="keywords" content="памятники, ВОВ, Санкт-Петербург, история, архитектура">
+    <title>Памятники ВОВ в Санкт-Петербурге</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .hero {
+            background: url('https://via.placeholder.com/1200x400') no-repeat center center/cover;
+            height: 400px;
+            text-align: center;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 36px;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+        }
+        .gallery img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            transition: transform 0.3s;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+            border-color: #444;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Памятники ВОВ в Санкт-Петербурге</h1>
+    </header>
+    <nav aria-label="Main Navigation">
+        <a href="#about">О проекте</a>
+        <a href="#theory">Теоретическая часть</a>
+        <a href="#practical">Практическая часть</a>
+        <a href="#gallery">Галерея</a>
+        <a href="#contacts">Контакты</a>
+    </nav>
+    <div class="hero">
+        Изучаем наследие Великой Отечественной войны
+    </div>
+    <section id="about">
+        <h2>О проекте</h2>
+        <p>Этот проект посвящен изучению памятников Великой Отечественной войны в Санкт-Петербурге. Мы исследуем их историческое значение, архитектуру и влияние на сохранение памяти о героическом прошлом.</p>
+    </section>
+    <section id="theory">
+        <h2>Теоретическая часть</h2>
+        <p>Теоретическая часть проекта включает обзор истории памятников ВОВ, их классификацию и анализ роли в формировании культурной памяти.</p>
+        <ul>
+            <li>История памятников ВОВ</li>
+            <li>Классификация памятников</li>
+            <li>Архитектурные стили и их особенности</li>
+        </ul>
+    </section>
+    <section id="practical">
+        <h2>Практическая часть</h2>
+        <p>Практическая часть проекта — это создание данного сайта, который поможет в популяризации знаний о памятниках ВОВ в Санкт-Петербурге.</p>
+        <p>На сайте представлены:</p>
+        <ul>
+            <li>Описания памятников</li>
+            <li>Карта памятников</li>
+            <li>Галерея изображений</li>
+        </ul>
+    </section>
+    <section id="gallery">
+        <h2>Галерея памятников</h2>
+        <div class="gallery">
+            <img src="https://via.placeholder.com/300x200" alt="Памятник 1">
+            <img src="https://via.placeholder.com/300x200" alt="Памятник 2">
+            <img src="https://via.placeholder.com/300x200" alt="Памятник 3">
+            <img src="https://via.placeholder.com/300x200" alt="Памятник 4">
+            <img src="https://via.placeholder.com/300x200" alt="Памятник 5">
+        </div>
+    </section>
+    <section id="contacts">
+        <h2>Контакты</h2>
+        <p>Автор проекта: Полина Михеева</p>
+        <p>Руководитель: Толкачева Марина Николаевна</p>
+        <p>Email: example@example.com</p>
+    </section>
+    <footer>
+        <p>© 2024 Памятники ВОВ в Санкт-Петербурге</p>
+    </footer>
+</body>
+</html>
